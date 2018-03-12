@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.administrator.helloworld.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <DatePicker
+                android:id="@+id/datpk_rq"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:id="@+id/txtview_sjsj_lbl"
+                android:text="@string/sjsj_label" />
+
+            <TextView
+                android:id="@+id/txtview_sjsj_show"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/kbsj_label" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="10dp" />
+
+            <TextView
+                android:id="@+id/txtview_tzsj_lbl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/tzsj_label" />
+
+            <TextView
+                android:id="@+id/txtview_tzsj"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/kbsj_label" />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="6dp" />
+
+            <Button
+                android:id="@+id/btn_z"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_z" />
+
+            <Button
+                android:id="@+id/btn_zc"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_zc" />
+
+            <Button
+                android:id="@+id/btn_xw"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_xw" />
+
+            <Button
+                android:id="@+id/btn_w"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_w" />
+
+            <Button
+                android:id="@+id/btn_tbsj"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="@string/btn_tbsj" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

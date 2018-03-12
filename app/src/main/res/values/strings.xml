@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">HelloWorld</string>
+    <string name="sjsj_label">手机时间</string>
+    <string name="tzsj_label">调整时间</string>
+    <string name="kbsj_label">--:--:--</string>
+    <string name="btn_z">早</string>
+    <string name="btn_zc">中餐</string>
+    <string name="btn_xw">下午</string>
+    <string name="btn_w">晚</string>
+    <string name="btn_tbsj">同步时间</string>
+</resources>
