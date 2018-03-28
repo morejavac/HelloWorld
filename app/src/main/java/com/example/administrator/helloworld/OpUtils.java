@@ -8,6 +8,16 @@ import java.util.Random;
  */
 
 public class OpUtils {
+    public static final String DATEPIC_MSG="选择的日期是：";
+    public static final String DATEPIC_YEAR_MSG="年";
+    public static final String DATEPIC_MONTH_MSG="月";
+    public static final String DATEPIC_DAYOFMONTH_MSG="日";
+
+    public static final String DATEPIC_TZ_MSG="修改的日期时间是：";
+    public static final String DATEPIC_TZ_HH="时";
+    public static final String DATEPIC_TZ_MM="分";
+    public static final String DATEPIC_TZ_SS="秒";
+
     //早(中餐/下午/晚)_时间_时钟
     private static final int Z_SJ_SZ=8;
     private static final int ZC_SJ_SZ=12;
@@ -17,11 +27,11 @@ public class OpUtils {
 
     //时间_分钟_上半区间_区间_小（大）
     private static final int SJ_FZ_MIX_BOUND_MIX=1;
-    private static final int SJ_FZ_MIX_BOUND_MAX=25;
+    private static final int SJ_FZ_MIX_BOUND_MAX=20;
 
     //时间_分钟_下半区间_区间_小（大）
     private static final int SJ_FZ_MAX_BOUND_MIX=31;
-    private static final int SJ_FZ_MAX_BOUND_MAX=50;
+    private static final int SJ_FZ_MAX_BOUND_MAX=40;
     //时间_秒钟_区间_小（大）
     private static final int SJ_MZ_BOUND_MIX=1;
     private static final int SJ_MZ_BOUND_MAX=58;

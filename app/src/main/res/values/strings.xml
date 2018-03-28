@@ -7,5 +7,5 @@
     <string name="btn_zc">中餐</string>
     <string name="btn_xw">下午</string>
     <string name="btn_w">晚</string>
-    <string name="btn_tbsj">同步时间</string>
+    <string name="btn_tbsj">同步手机时间</string>
 </resources>
