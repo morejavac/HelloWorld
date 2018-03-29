@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private void showDateTime(){
         Toast.makeText(MainActivity.this,
                 OpUtils.DATEPIC_TZ_MSG+year+
-                        OpUtils.DATEPIC_YEAR_MSG+monthOfYear+
+                        OpUtils.DATEPIC_YEAR_MSG+(monthOfYear+1)+
                         OpUtils.DATEPIC_MONTH_MSG+dayOfMonth+
                         OpUtils.DATEPIC_DAYOFMONTH_MSG+hh+
                         OpUtils.DATEPIC_TZ_HH+mm+
@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
                 if (!MainActivity.this.istbsj) {
                     Toast.makeText(MainActivity.this,
                             OpUtils.DATEPIC_MSG + year +
-                                    OpUtils.DATEPIC_YEAR_MSG + monthOfYear +
+                                    OpUtils.DATEPIC_YEAR_MSG + (monthOfYear+1) +
                                     OpUtils.DATEPIC_MONTH_MSG + dayOfMonth +
                                     OpUtils.DATEPIC_DAYOFMONTH_MSG, Toast.LENGTH_SHORT).show();
                 }
